@@ -1,1 +1,1 @@
-imput('hello')
+input('hello')
