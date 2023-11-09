@@ -15,3 +15,4 @@ for i in range(0, len(l1)):
  
 # sorted list
 print("Sorted List", l1)
+print(f"there are {coins} coins(s) remaining")
