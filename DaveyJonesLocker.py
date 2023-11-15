@@ -3,11 +3,12 @@ from tokenize import Name
 
 def main():
     StoneList=[]
-    StonePile=random.randint(2,5)
-    StoneQuantity=random.randint(1,9)
+    StonePile=random.randint(2,10)
+    StoneQuantity=random.randint(1,18)
     Name=input("Enter Your name:")
     print("Hello ",Name,"! Welcome to the Game of Nim")
     player=Name
+
     Board(StoneList,StonePile,StoneQuantity,player)
 
 def Board(StoneList,StonePile,StoneQuantity,player):
